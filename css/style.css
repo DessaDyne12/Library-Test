@@ -1,0 +1,391 @@
+html { overflow-x: hidden !important; }
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../fonts/Poppins-Regular.woff);
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(../fonts/Poppins-Bold.woff);
+}
+
+body {
+    margin: 0 !important;
+    font-family: '', serif;
+    padding: 0 !important; 
+    overflow-x: hidden !important ;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: PoppinsRegular;
+}
+
+p{
+    font-family: PoppinsRegular;
+    margin: 0;
+    padding: 0;
+}
+
+.display01 {
+    font-family: PoppinsBold;
+    font-size: 96px;
+}
+
+.display02 {
+    font-family: PoppinsBold;
+    font-size: 88px;
+}
+
+.display03 {
+    font-family: PoppinsBold;
+    font-size: 79px;
+}
+.display04 {
+    font-family: PoppinsBold;
+    font-size: 61px;
+}
+
+.btn {
+    font-family: PoppinsRegular;
+    border-radius: 30px;
+    border: none;
+    padding: 13px 28px;
+}
+
+.navbtn{
+    font-family: PoppinsRegular;
+    background-color: #00D05E;
+}
+
+/* section-1 */
+
+.section-1 {
+    background: #eff8ff 0% 0% no-repeat padding-box;
+    padding: 27px 0px 0px;   
+}
+
+.bg-light {
+    background-color: #f8f9fa00!important;
+}
+
+.signup {
+    border: 1px solid #00D05E;
+    background-color: rgba(255, 255, 255, 0);
+    color: #00D05E;
+    margin-right: 21px;
+}
+
+.logo-header {
+    width: 150px;
+}
+
+.header-text01 {
+    text-align: center;
+    color: black;
+    margin-top: 75px;
+}
+
+.header-text02 {
+    text-align: center;
+    color: black;
+    margin-top: 31px;
+}
+
+.catergorysearch {
+    padding: 25px 53px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 17px;
+    box-shadow: 0px 3px 6px #04004933;
+
+}
+
+.search-bar {
+    border: none;
+    font-family: PoppinsRegular;
+    font-size: 28px;
+    width: 800px;
+}
+
+.dropdown-category {
+    border: none !important;
+    font-family: Poppinsbold;
+    font-size: 28px;
+    margin-right: 50px;
+}
+
+option {
+    font-size: 16px;
+    font-family: PoppinsRegular;
+    color: black;
+}
+
+.btn-search {
+    padding: 10px 16px;
+    background-color: #00D05E;
+}
+
+.header-img {
+    top: -10px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+/* section-2 */
+
+.section-2 {
+    margin: 3% 0% 5%;
+}
+
+.section-text01 {
+    text-align: center;
+    color: black;
+    margin-top: 31px;
+    font-family: PoppinsBold !important;
+}
+
+.card {
+    border: 1px solid #CFDEE5;
+    border-radius: 7px;
+    margin: 25px 0px;
+}
+
+.card-title{
+    font-family: PoppinsBold !important;
+    color: black;
+    padding: 17px 10px;
+}
+
+.card-btn{
+    font-family: PoppinsBold;
+    border: 1px solid #00D05E;
+    margin: 0px 10px;
+    font-size: 20;
+    background-color: white;
+    color: #00D05E;
+}
+
+/* section-3 */
+
+.section-3 {
+    background-color: #00D05E;
+}
+
+.section-white {
+    color: white;
+    padding: 25px;
+}
+
+.section-content {
+    padding: 1% 0% 0% 28%;
+}
+
+.section-3 ul {
+    margin: 2% 0%;
+}
+
+.section-3 input{
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    background-color: #00D05E;
+    color: white;
+    font-size: 16px;
+    font-family: PoppinsRegular;
+}
+
+.tablinks {
+    font-family: PoppinsBold;
+    font-size: 40px;
+    color: #AAE6C6 !important;
+    text-decoration: none !important;
+    padding-right: 50px;
+}
+
+a.tablinks.active {
+    font-family: PoppinsBold;
+    font-size: 40px;
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+.form-label {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: PoppinsRegular;
+}
+
+.submit{
+    font-family: PoppinsBold;
+    border: 1px solid white;
+    margin: 0px 10px;
+    font-size: 20;
+    background-color: #00D05E;
+    color: white;
+    margin-top: 2%;
+}
+
+.img-cover-section03 {
+  background-position: inherit;
+  background-size: cover;
+  width: -webkit-fill-available;
+}
+
+/* section-4 */
+
+.section-4 {
+    background-image: url("../img/section04-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 7vmax 16vmax;;
+}
+ 
+.section04-text1 {
+    color: #00D05E;
+    text-align: center;
+    text-shadow: 0px 3px 4px #00000059;
+    margin-bottom: 2%;
+}
+
+.btn-cta{
+    font-family: PoppinsRegular;
+    background-color: #00D05E;
+    box-shadow: 0px 3px 5px #00000059;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+/* section-footer */
+
+footer{
+    background: #eff8ff 0% 0% no-repeat padding-box;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1920px) {
+
+    .search-bar {
+        width: 700px;
+    }
+
+    .section-content {
+        padding: 1% 0% 0% 31%;
+    }
+
+}
+
+@media (max-width: 1366px) {
+
+    .search-bar {
+        width: 700px;
+    }
+
+    .section-content {
+        padding: 1% 7% 2% 7%;
+    }
+
+    .section04-text1 {
+        font-size: 61px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .dropdown-category {
+        margin-right: 25px;
+    }
+
+    .display02 {
+        font-size: 71px;
+    }
+
+    .search-bar {
+        width: 550px;
+    }
+
+    .section-content {
+        padding: 1% 2% 2% 2%;
+    }
+
+    .section-4 {
+        padding: 4vmax 14vmax;
+    }
+
+    .section04-text1 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .search-bar {
+        width: 250px;
+    }
+
+    .dropdown-category {
+        margin-right: 15px;
+    }
+
+    .display02 {
+        font-size: 40px;
+    }
+
+    .header-text02 {
+        margin-top: 24px;
+    }
+
+    .section-content {
+        padding: 1% 2% 2% 2%;
+    }
+
+    .section-4 {
+        padding: 4vmax 14vmax;
+    }
+
+    .section04-text1 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    .catergorysearch {
+        padding: 25px 25px;
+
+    .search-bar {
+        width: 110px !important;
+    }
+
+    .section04-text1 {
+        font-size: 24px;
+    }
+
+    .tablinks {
+        padding-right: 0px !important;
+    }
+    .section-4 {
+        padding: 4vmax 4vmax;
+    }
+
+}
+
+@media (max-width: 736px) {
+
+    .tablinks {
+        padding-right: 16px;
+    }
+
+    .search-bar {
+        width: 140px;
+    }
+
+}
